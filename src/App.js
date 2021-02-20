@@ -1,12 +1,13 @@
 import "./style/App.css";
 import Toggle from "./Toggle/Toggle";
+import { TopInstruction } from "./Instructions/Instructions";
 
 function App() {
   return (
     <div className="App">
-      <div className="Container">
         <Toggle />
-      </div>
+
+        <TopInstruction />
     </div>
   );
 }

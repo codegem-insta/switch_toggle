@@ -4,10 +4,10 @@ import logo from "./logo.png";
 export function TopInstruction() {
   return (
     <div className={style.Instructions}>
-      <p className={style.Arrow}>←</p>
+      <p className={style.Arrow}>↑</p>
       <img src={logo} alt="logo" />
       <br />
-      React Side Bar
+      React Switch Toggle
       <br />
       Made easy
       <br />
