@@ -1,10 +1,10 @@
-.Toggle {
+.CheckBox {
   height: 0;
   width: 0;
   visibility: hidden;
 }
 
-.Label {
+.Toggle {
   position: relative;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
   transition: background-color 0.2s;
 }
 
-.Label .Button {
+.Toggle .Circle {
   content: "";
   position: absolute;
   top: 5px;
@@ -32,12 +32,12 @@
   background: #fff;
 }
 
-.Toggle:checked + .Label .Button {
+.CheckBox:checked + .Toggle .Circle {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
 
-.Toggle:checked + .Label {
+.CheckBox:checked + .Toggle {
   background-color: rgb(22, 206, 92);
 }
 
