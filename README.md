@@ -1,4 +1,4 @@
-# React Toggle Switch
+# React Switch Toggle
 
 <p align="center"><img src="screenshots/main.gif" width="50%"/></p>
 
