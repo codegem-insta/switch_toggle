@@ -8,7 +8,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   cursor: pointer;
 
@@ -29,7 +28,7 @@
   height: 90px;
   border-radius: 90px;
   transition: 0.2s;
-  background: #fff;
+  background: white;
 }
 
 .CheckBox:checked + .Toggle .Circle {
